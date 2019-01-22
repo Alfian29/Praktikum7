@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-	<title>Profile | Klorofil - Free Bootstrap Dashboard Template</title>
+	<title>Data Diri | Klorofil - Free Bootstrap Dashboard Template</title>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
@@ -89,7 +89,10 @@
 				<nav>
 					<ul class="nav">
 						<li><a href="<?=base_url();?>" class=""><i class="lnr lnr-home"></i> <span>Home</span></a></li>
-						<li><a href="<?=base_url();?>index.php/welcome/data_diri" class="active"><i class="lnr lnr-code"></i> <span>Data Diri</span></a></li>
+						<li><a href="<?=base_url();?>index.php/welcome/data_diri" class="active"><i class="lnr lnr-user"></i> <span>Data Diri</span></a></li>
+						<li><a href="<?=base_url();?>index.php/welcome/event" class=""><i class="fa fa-calendar"></i> <span>Event</span></a></li>
+						<li><a href="<?=base_url();?>index.php/welcome/gallery" class=""><i class="lnr lnr-picture"></i> <span>Gallery</span></a></li>
+						<li><a href="<?=base_url();?>index.php/welcome/contact" class=""><i class="lnr lnr-phone"></i> <span>Contact</span></a></li>
 					</ul>
 				</nav>
 			</div>
@@ -108,7 +111,7 @@
 								<div class="profile-header">
 									<div class="overlay"></div>
 									<div class="profile-main">
-										<img src="<?=base_url()?>assets/img/user-medium.jpg" class="img-circle" alt="Avatar" width=90px; height=110px;>
+										<img src="<?=base_url()?>assets/img/user-medium.jpg" class="img-circle" alt="Avatar" width=90px; height=115px;>
 										<h3 class="name">Muhammad Alfian</h3>
 										<span class="online-status status-available">Available</span>
 									</div>
@@ -136,18 +139,9 @@
 											<li>Number <span>25</span></li>
 											<li>Birthdate <span>29 Aug, 2001</span></li>
 											<li>Mobile <span>(+62) 82332329928</span></li>
-											<li>Email <span>muhammad_alfian_26rpl@student.smktelkom-mlg.sch.id</span></li>
+											<li>Email <span>muhammad_alfian_26rpl@studen...</span></li>
 										</ul>
 										<br>
-									</div>
-									<div class="profile-info">
-										<h4 class="heading">Social</h4>
-										<ul class="list-inline social-icons">
-											<li><a href="#" class="facebook-bg"><i class="fa fa-facebook"></i></a></li>
-											<li><a href="#" class="twitter-bg"><i class="fa fa-twitter"></i></a></li>
-											<li><a href="#" class="google-plus-bg"><i class="fa fa-google-plus"></i></a></li>
-											<li><a href="#" class="github-bg"><i class="fa fa-github"></i></a></li>
-										</ul>
 									</div>
 									<div class="profile-info">
 										<h4 class="heading">About</h4>
@@ -160,7 +154,7 @@
 							<!-- END LEFT COLUMN -->
 							<!-- RIGHT COLUMN -->
 							<div class="profile-right">
-								<h4 class="heading">Samuel's Awards</h4>
+								<h4 class="heading">Alfian's Awards</h4>
 								<!-- AWARDS -->
 								<div class="awards">
 									<div class="row">

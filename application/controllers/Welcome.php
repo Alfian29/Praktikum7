@@ -22,17 +22,17 @@ class Welcome extends CI_Controller {
 	{
 		$this->load->view('index');
 	}
-	public function charts()
+	public function gallery()
 	{
-		$this->load->view('charts');
+		$this->load->view('gallery');
 	}
-	public function elements()
+	public function contact()
 	{
-		$this->load->view('elements');
+		$this->load->view('contact');
 	}
-	public function icons()
+	public function event()
 	{
-		$this->load->view('icons');
+		$this->load->view('event');
 	}
 	public function notifications()
 	{

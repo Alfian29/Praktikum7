@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-	<title>Dashboard | Klorofil - Free Bootstrap Dashboard Template</title>
+	<title>Home | Klorofil - Free Bootstrap Dashboard Template</title>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
@@ -90,7 +90,10 @@
 				<nav>
 					<ul class="nav">
 						<li><a href="<?=base_url();?>" class="active"><i class="lnr lnr-home"></i> <span>Home</span></a></li>
-						<li><a href="<?=base_url();?>index.php/welcome/data_diri" class=""><i class="lnr lnr-code"></i> <span>Data Diri</span></a></li>
+						<li><a href="<?=base_url();?>index.php/welcome/data_diri" class=""><i class="lnr lnr-user"></i> <span>Data Diri</span></a></li>
+						<li><a href="<?=base_url();?>index.php/welcome/event" class=""><i class="fa fa-calendar"></i> <span>Event</span></a></li>
+						<li><a href="<?=base_url();?>index.php/welcome/gallery" class=""><i class="lnr lnr-picture"></i> <span>Gallery</span></a></li>
+						<li><a href="<?=base_url();?>index.php/welcome/contact" class=""><i class="lnr lnr-phone"></i> <span>Contact</span></a></li>
 					</ul>
 				</nav>
 			</div>

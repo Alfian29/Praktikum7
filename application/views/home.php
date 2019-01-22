@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-	<title>Dashboard | Klorofil - Free Bootstrap Dashboard Template</title>
+	<title>Home | Klorofil - Free Bootstrap Dashboard Template</title>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
@@ -89,24 +89,11 @@
 			<div class="sidebar-scroll">
 				<nav>
 					<ul class="nav">
-						<li><a href="<?=base_url()?>index.php/welcome/index" class="active"><i class="lnr lnr-home"></i> <span>Dashboard</span></a></li>
-						<li><a href="<?=base_url()?>index.php/welcome/elements" class=""><i class="lnr lnr-code"></i> <span>Elements</span></a></li>
-						<li><a href="<?=base_url()?>index.php/welcome/charts" class=""><i class="lnr lnr-chart-bars"></i> <span>Charts</span></a></li>
-						<li><a href="<?=base_url()?>index.php/welcome/panels" class=""><i class="lnr lnr-cog"></i> <span>Panels</span></a></li>
-						<li><a href="<?=base_url()?>index.php/welcome/notifications" class=""><i class="lnr lnr-alarm"></i> <span>Notifications</span></a></li>
-						<li>
-							<a href="#subPages" data-toggle="collapse" class="collapsed"><i class="lnr lnr-file-empty"></i> <span>Pages</span> <i class="icon-submenu lnr lnr-chevron-left"></i></a>
-							<div id="subPages" class="collapse ">
-								<ul class="nav">
-									<li><a href="<?=base_url()?>index.php/welcome/page_profile" class="">Profile</a></li>
-									<li><a href="<?=base_url()?>index.php/welcome/page_login" class="">Login</a></li>
-									<li><a href="<?=base_url()?>index.php/welcome/page_lockscreen" class="">Lockscreen</a></li>
-								</ul>
-							</div>
-						</li>
-						<li><a href="<?=base_url()?>index.php/welcome/tables" class=""><i class="lnr lnr-dice"></i> <span>Tables</span></a></li>
-						<li><a href="<?=base_url()?>index.php/welcome/typography" class=""><i class="lnr lnr-text-format"></i> <span>Typography</span></a></li>
-						<li><a href="<?=base_url()?>index.php/welcome/icons" class=""><i class="lnr lnr-linearicons"></i> <span>Icons</span></a></li>
+						<li><a href="<?=base_url();?>" class="active"><i class="lnr lnr-home"></i> <span>Home</span></a></li>
+						<li><a href="<?=base_url();?>index.php/welcome/data_diri" class=""><i class="lnr lnr-user"></i> <span>Data Diri</span></a></li>
+						<li><a href="<?=base_url();?>index.php/welcome/event" class=""><i class="fa fa-calendar"></i> <span>Event</span></a></li>
+						<li><a href="<?=base_url();?>index.php/welcome/gallery" class=""><i class="lnr lnr-picture"></i> <span>Gallery</span></a></li>
+						<li><a href="<?=base_url();?>index.php/welcome/contact" class=""><i class="lnr lnr-phone"></i> <span>Contact</span></a></li>
 					</ul>
 				</nav>
 			</div>
