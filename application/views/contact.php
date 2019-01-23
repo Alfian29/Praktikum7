@@ -93,6 +93,8 @@
 						<li><a href="<?=base_url();?>index.php/welcome/event" class=""><i class="fa fa-calendar"></i> <span>Event</span></a></li>
 						<li><a href="<?=base_url();?>index.php/welcome/gallery" class=""><i class="lnr lnr-picture"></i> <span>Gallery</span></a></li>
 						<li><a href="<?=base_url();?>index.php/welcome/contact" class="active"><i class="lnr lnr-phone"></i> <span>Contact</span></a></li>
+						<li><a href="<?=base_url();?>index.php/kategori" class=""><i class="lnr lnr-list"></i> <span>Kategori</span></a></li>
+						<li><a href="<?=base_url();?>index.php/barang" class=""><i class="lnr lnr-cart"></i> <span>Barang</span></a></li>
 					</ul>
 				</nav>
 			</div>
