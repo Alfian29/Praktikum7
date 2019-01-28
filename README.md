@@ -3,6 +3,8 @@ Login ![alt text](https://github.com/Alfian29/Praktikum7/blob/master/SSLogin/log
 
 Home ![alt text](https://github.com/Alfian29/Praktikum7/blob/master/SSLogin/home.png)
 
+Data Diri ![alt text](https://github.com/Alfian29/Praktikum7/blob/master/SSLogin/datadiri.png)
+
 Event ![alt text](https://github.com/Alfian29/Praktikum7/blob/master/SSLogin/event.png)
 
 Gallery ![alt text](https://github.com/Alfian29/Praktikum7/blob/master/SSLogin/gallery.png)
