@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-	<title>Gallery | Klorofil - Free Bootstrap Dashboard Template</title>
+	<title>Contact | Klorofil - Free Bootstrap Dashboard Template</title>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
@@ -18,12 +18,7 @@
 	<link href="<?=base_url();?>https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700" rel="stylesheet">
 	<!-- ICONS -->
 	<link rel="apple-touch-icon" sizes="76x76" href="<?=base_url();?>assets/img/apple-icon.png">
-	<link rel="icon" type="image/png" sizes="96x96" href="<?=base_url();?>assets/img/favicon.png">
-	<style>
-	img{
-		padding: 10px;
-		}
-	</style>
+    <link rel="icon" type="image/png" sizes="96x96" href="<?=base_url();?>assets/img/favicon.png">
 </head>
 
 <body>
@@ -32,7 +27,7 @@
 		<!-- NAVBAR -->
 		<nav class="navbar navbar-default navbar-fixed-top">
 			<div class="brand">
-				<a href="<?=base_url()?>index.php/welcome/index"><img src="<?=base_url()?>assets/img/logo-dark.png" alt="Klorofil Logo" class="img-responsive logo"></a>
+				<img src="<?=base_url()?>assets/img/logo-dark.png" alt="Klorofil Logo" class="img-responsive logo"></a>
 			</div>
 			<div class="container-fluid">
 				<div class="navbar-btn">
@@ -77,7 +72,7 @@
 								<li><a href="#"><i class="lnr lnr-user"></i> <span>My Profile</span></a></li>
 								<li><a href="#"><i class="lnr lnr-envelope"></i> <span>Message</span></a></li>
 								<li><a href="#"><i class="lnr lnr-cog"></i> <span>Settings</span></a></li>
-								<li><a href="<?=base_url()?>index.php/welcome/page_login"><i class="lnr lnr-exit"></i> <span>Logout</span></a></li>
+								<li><a href="<?=base_url();?>index.php/user/Logout"><i class="lnr lnr-exit"></i> <span>Logout</span></a></li>
 							</ul>
 						</li>
 						<!-- <li>
@@ -93,11 +88,15 @@
 			<div class="sidebar-scroll">
 				<nav>
 					<ul class="nav">
-						<li><a href="<?=base_url();?>" class=""><i class="lnr lnr-home"></i> <span>Home</span></a></li>
+						<li><a href="<?=base_url();?>index.php/welcome/index" class=""><i class="lnr lnr-home"></i> <span>Home</span></a></li>
 						<li><a href="<?=base_url();?>index.php/welcome/data_diri" class=""><i class="lnr lnr-user"></i> <span>Data Diri</span></a></li>
 						<li><a href="<?=base_url();?>index.php/welcome/event" class=""><i class="fa fa-calendar"></i> <span>Event</span></a></li>
-						<li><a href="<?=base_url();?>index.php/welcome/gallery" class="active"><i class="lnr lnr-picture"></i> <span>Gallery</span></a></li>
+						<li><a href="<?=base_url();?>index.php/welcome/gallery" class=""><i class="lnr lnr-picture"></i> <span>Gallery</span></a></li>
 						<li><a href="<?=base_url();?>index.php/welcome/contact" class=""><i class="lnr lnr-phone"></i> <span>Contact</span></a></li>
+						<li><a href="<?=base_url();?>index.php/kategori" class=""><i class="lnr lnr-list"></i> <span>Kategori</span></a></li>
+						<li><a href="<?=base_url();?>index.php/barang" class=""><i class="lnr lnr-cart"></i> <span>Barang</span></a></li>
+						<li><a href="<?=base_url();?>index.php/Pelanggan/DaftarPelanggan" class=""><i class="lnr lnr-file-add"></i> <span>Form Daftar Pelanggan</span></a></li>
+						<li><a href="<?=base_url();?>index.php/Pelanggan/DataPelanggan" class=""><i class="lnr lnr-users"></i> <span>Data Pelanggan</span></a></li>
 					</ul>
 				</nav>
 			</div>
@@ -111,13 +110,13 @@
 					<h3 class="page-title">Gallery</h3>
 					<div class="panel panel-headline">
 						<div class="panel-body">
-								<img style="width: 300px; height: 200px" src="<?=base_url()?>assets/img/1.jpg" alt=""><img style="width: 300px; height: 200px" src="<?=base_url()?>assets/img/6.jpg" alt=""><img style="width: 300px; height: 200px" src="<?=base_url()?>assets/img/5.jpg" alt="">
+								<br><img style="width: 300px; height: 200px" src="<?=base_url()?>assets/img/1.jpg" alt=""><img style="width: 300px; height: 200px" src="<?=base_url()?>assets/img/6.jpg" alt=""><img style="width: 300px; height: 200px" src="<?=base_url()?>assets/img/5.jpg" alt="">
 								<img style="width: 300px; height: 200px" src="<?=base_url()?>assets/img/2.jpg" alt=""><img style="width: 300px; height: 200px" src="<?=base_url()?>assets/img/7.jpg" alt=""><img style="width: 300px; height: 200px" src="<?=base_url()?>assets/img/8.jpg" alt="">
 								<img style="width: 300px; height: 200px" src="<?=base_url()?>assets/img/3.jpg" alt=""><img style="width: 300px; height: 200px" src="<?=base_url()?>assets/img/9.jpg" alt=""><img style="width: 300px; height: 200px" src="<?=base_url()?>assets/img/10.jpg" alt="">
 								<img style="width: 300px; height: 200px" src="<?=base_url()?>assets/img/4.jpg" alt=""><img style="width: 300px; height: 200px" src="<?=base_url()?>assets/img/11.jpg" alt=""><img style="width: 300px; height: 200px" src="<?=base_url()?>assets/img/12.jpg" alt="">
 								<img style="width: 300px; height: 200px" src="<?=base_url()?>assets/img/13.jpg" alt=""><img style="width: 300px; height: 200px" src="<?=base_url()?>assets/img/15.jpg" alt=""><img style="width: 300px; height: 200px" src="<?=base_url()?>assets/img/17.jpg" alt="">
 								<img style="width: 300px; height: 200px" src="<?=base_url()?>assets/img/14.jpg" alt=""><img style="width: 300px; height: 200px" src="<?=base_url()?>assets/img/16.jpg" alt=""><img style="width: 300px; height: 200px" src="<?=base_url()?>assets/img/18.jpg" alt="">
-						</div>
+                        </div>
 					</div>
 				</div>
 			</div>

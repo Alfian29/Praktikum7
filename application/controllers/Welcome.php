@@ -20,7 +20,8 @@ class Welcome extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->load->view('template');
+		$data['konten']="home";
+        $this->load->view('template', $data);
 	}
 	public function gallery()
 	{

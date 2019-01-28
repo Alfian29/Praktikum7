@@ -1,73 +1,124 @@
-<!doctype html>
-<html lang="en" class="fullscreen-bg">
+<!DOCTYPE html>
+<html>
 
 <head>
-	<title>Login | Klorofil - Free Bootstrap Dashboard Template</title>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-	<!-- VENDOR CSS -->
-	<link rel="stylesheet" href="<?= base_url()?>assets/css/bootstrap.min.css">
-	<link rel="stylesheet" href="<?= base_url()?>assets/vendor/font-awesome/css/font-awesome.min.css">
-	<link rel="stylesheet" href="<?= base_url()?>assets/vendor/linearicons/style.css">
-	<!-- MAIN CSS -->
-	<link rel="stylesheet" href="<?= base_url()?>assets/css/main.css">
-	<!-- FOR DEMO PURPOSES ONLY. You should remove this in your project -->
-	<link rel="stylesheet" href="<?= base_url()?>assets/css/demo.css">
-	<!-- GOOGLE FONTS -->
-	<link href="<?= base_url()?>https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700" rel="stylesheet">
-	<!-- ICONS -->
-	<link rel="apple-touch-icon" sizes="76x76" href="<?= base_url()?>assets/img/apple-icon.png">
-	<link rel="icon" type="image/png" sizes="96x96" href="<?= base_url()?>assets/img/favicon.png">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <title>Admin</title>
+    <!-- Favicon-->
+    <link rel="icon" href="<?=base_url()?>/assets/favicon.ico" type="image/x-icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&subset=latin,cyrillic-ext" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" type="text/css">
+
+    <!-- Bootstrap Core Css -->
+    <link href="<?=base_url()?>/assets/plugins/bootstrap/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Waves Effect Css -->
+    <link href="<?=base_url()?>/assets/plugins/node-waves/waves.css" rel="stylesheet" />
+
+    <!-- Animation Css -->
+    <link href="<?=base_url()?>/assets/plugins/animate-css/animate.css" rel="stylesheet" />
+
+    <!-- Morris Chart Css-->
+    <link href="<?=base_url()?>/assets/plugins/morrisjs/morris.css" rel="stylesheet" />
+
+    <!-- Custom Css -->
+    <link href="<?=base_url()?>/assets/css/style.css" rel="stylesheet">
+
+    <!-- AdminBSB Themes. You can choose a theme from css/themes instead of get all themes -->
+    <link href="<?=base_url()?>/assets/css/themes/all-themes.css" rel="stylesheet" />
 </head>
 
-<body>
-	<!-- WRAPPER -->
-	<div id="wrapper">
-		<div class="vertical-align-wrap">
-			<div class="vertical-align-middle">
-				<div class="auth-box ">
-					<div class="left">
-						<div class="content">
-							<div class="header">
-								<div class="logo text-center"><img src="<?=base_url()?>assets/img/logo-dark.png" alt="Klorofil Logo"></div>
-								<p class="lead">Login to your account</p>
-							</div>
-							<form class="form-auth-small" action="<?=base_url()?>index.php/welcome/index">
-								<div class="form-group">
-									<label for="signin-email" class="control-label sr-only">Email</label>
-									<input type="email" class="form-control" id="signin-email" value="muhammad_alfian_26rpl@student.smktelkom-mlg.sch.id" placeholder="Email">
-								</div>
-								<div class="form-group">
-									<label for="signin-password" class="control-label sr-only">Password</label>
-									<input type="password" class="form-control" id="signin-password" value="12345" placeholder="Password">
-								</div>
-								<div class="form-group clearfix">
-									<label class="fancy-checkbox element-left">
-										<input type="checkbox">
-										<span>Remember me</span>
-									</label>
-								</div>
-								<button type="submit" class="btn btn-primary btn-lg btn-block">LOGIN</button>
-								<div class="bottom">
-									<span class="helper-text"><i class="fa fa-lock"></i> <a href="#">Forgot password?</a></span>
-								</div>
-							</form>
-						</div>
-					</div>
-					<div class="right">
-						<div class="overlay"></div>
-						<div class="content text">
-							<h1 class="heading">Free Bootstrap dashboard template</h1>
-							<p>by The Develovers</p>
-						</div>
-					</div>
-					<div class="clearfix"></div>
-				</div>
-			</div>
+<body class="login-page">
+    <div class="login-box">
+	<div class="card1">
+		<div class="ok">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="logo">
+                        <a href="javascript:void(0);">ONLINE<span>SHOP</span></a>
+                    </div>
+                </div>
+            </div>
 		</div>
 	</div>
-	<!-- END WRAPPER -->
+        <div class="card">
+            <div class="body">
+                <form id="form_login" method="POST" action="<?=base_url(); ?>index.php/user/Login">
+                    <div class="msg">Silahkan masukan Username dan Password</div>
+                    <p id="error" style="color:red"></p>
+                    <div class="input-group">
+                        <span class="input-group-addon">
+                            <i class="material-icons">email</i>
+                        </span>
+                        <div class="form-line">
+                            <input type="text" class="form-control" name="Username" placeholder="Username" required autofocus>
+                        </div>
+                    </div>
+                    <div class="input-group">
+                        <span class="input-group-addon">
+                            <i class="material-icons">lock</i>
+                        </span>
+                        <div class="form-line">
+                            <input type="password" class="form-control" name="Password" placeholder="Password" required>
+                        </div>
+                    </div>
+					
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <input class="btn btn-block bg-red waves-effect" type="submit" id="masuk" name="masuk" value="MASUK">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Jquery Core Js -->
+    <script src="<?=base_url()?>assets/plugins/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Core Js -->
+    <script src="<?=base_url()?>assets/plugins/bootstrap/js/bootstrap.js"></script>
+
+    <!-- Select Plugin Js -->
+    <script src="<?=base_url()?>assets/plugins/bootstrap-select/js/bootstrap-select.js"></script>
+
+    <!-- Slimscroll Plugin Js -->
+    <script src="<?=base_url()?>assets/plugins/jquery-slimscroll/jquery.slimscroll.js"></script>
+
+    <!-- Waves Effect Plugin Js -->
+    <script src="<?=base_url()?>assets/plugins/node-waves/waves.js"></script>
+
+    <!-- Jquery CountTo Plugin Js -->
+    <script src="<?=base_url()?>assets/plugins/jquery-countto/jquery.countTo.js"></script>
+
+    <!-- Morris Plugin Js -->
+    <script src="<?=base_url()?>assets/plugins/raphael/raphael.min.js"></script>
+    <script src="<?=base_url()?>assets/plugins/morrisjs/morris.js"></script>
+
+    <!-- ChartJs -->
+    <script src="<?=base_url()?>assets/plugins/chartjs/Chart.bundle.js"></script>
+
+    <!-- Flot Charts Plugin Js -->
+    <script src="<?=base_url()?>assets/plugins/flot-charts/jquery.flot.js"></script>
+    <script src="<?=base_url()?>assets/plugins/flot-charts/jquery.flot.resize.js"></script>
+    <script src="<?=base_url()?>assets/plugins/flot-charts/jquery.flot.pie.js"></script>
+    <script src="<?=base_url()?>assets/plugins/flot-charts/jquery.flot.categories.js"></script>
+    <script src="<?=base_url()?>assets/plugins/flot-charts/jquery.flot.time.js"></script>
+
+    <!-- Sparkline Chart Plugin Js -->
+    <script src="<?=base_url()?>assets/plugins/jquery-sparkline/jquery.sparkline.js"></script>
+
+    <!-- Custom Js -->
+    <script src="<?=base_url()?>assets/js/admin.js"></script>
+    <script src="<?=base_url()?>assets/js/pages/index.js"></script>
+
+    <!-- Demo Js -->
+    <script src="<?=base_url()?>assets/js/demo.js"></script>
 </body>
 
 </html>

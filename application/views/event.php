@@ -27,7 +27,7 @@
 		<!-- NAVBAR -->
 		<nav class="navbar navbar-default navbar-fixed-top">
 			<div class="brand">
-				<a href="<?=base_url()?>index.php/welcome/index"><img src="<?=base_url()?>assets/img/logo-dark.png" alt="Klorofil Logo" class="img-responsive logo"></a>
+				<img src="<?=base_url()?>assets/img/logo-dark.png" alt="Klorofil Logo" class="img-responsive logo"></a>
 			</div>
 			<div class="container-fluid">
 				<div class="navbar-btn">
@@ -72,7 +72,7 @@
 								<li><a href="#"><i class="lnr lnr-user"></i> <span>My Profile</span></a></li>
 								<li><a href="#"><i class="lnr lnr-envelope"></i> <span>Message</span></a></li>
 								<li><a href="#"><i class="lnr lnr-cog"></i> <span>Settings</span></a></li>
-								<li><a href="<?=base_url()?>index.php/welcome/page_login"><i class="lnr lnr-exit"></i> <span>Logout</span></a></li>
+								<li><a href="<?=base_url();?>index.php/user/Logout"><i class="lnr lnr-exit"></i> <span>Logout</span></a></li>
 							</ul>
 						</li>
 						<!-- <li>
@@ -88,11 +88,15 @@
 			<div class="sidebar-scroll">
 				<nav>
 					<ul class="nav">
-						<li><a href="<?=base_url();?>" class=""><i class="lnr lnr-home"></i> <span>Home</span></a></li>
+						<li><a href="<?=base_url();?>index.php/welcome/index" class=""><i class="lnr lnr-home"></i> <span>Home</span></a></li>
 						<li><a href="<?=base_url();?>index.php/welcome/data_diri" class=""><i class="lnr lnr-user"></i> <span>Data Diri</span></a></li>
-						<li><a href="<?=base_url();?>index.php/welcome/event" class="active"><i class="fa fa-calendar"></i> <span>Event</span></a></li>
+						<li><a href="<?=base_url();?>index.php/welcome/event" class=""><i class="fa fa-calendar"></i> <span>Event</span></a></li>
 						<li><a href="<?=base_url();?>index.php/welcome/gallery" class=""><i class="lnr lnr-picture"></i> <span>Gallery</span></a></li>
 						<li><a href="<?=base_url();?>index.php/welcome/contact" class=""><i class="lnr lnr-phone"></i> <span>Contact</span></a></li>
+						<li><a href="<?=base_url();?>index.php/kategori" class=""><i class="lnr lnr-list"></i> <span>Kategori</span></a></li>
+						<li><a href="<?=base_url();?>index.php/barang" class=""><i class="lnr lnr-cart"></i> <span>Barang</span></a></li>
+						<li><a href="<?=base_url();?>index.php/Pelanggan/DaftarPelanggan" class=""><i class="lnr lnr-file-add"></i> <span>Form Daftar Pelanggan</span></a></li>
+						<li><a href="<?=base_url();?>index.php/Pelanggan/DataPelanggan" class=""><i class="lnr lnr-users"></i> <span>Data Pelanggan</span></a></li>
 					</ul>
 				</nav>
 			</div>

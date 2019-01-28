@@ -40,8 +40,9 @@
                         </div>
                     </div>
                 </div>
-
-
+			
+    
+        
 <div class="modal fade" id="tambah">
   <div class="modal-dialog">
     <div class="modal-content">
